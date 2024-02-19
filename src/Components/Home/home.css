@@ -1,0 +1,193 @@
+:root {
+    --PrimaryColor: hsl(26, 93%, 50%);
+    --HoverColor: hsl(26, 90%, 42%);
+    --WhiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(0, 0%, 18%);
+    --textColor: hsl(240, 1%, 48%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyBg: hsl(0, 0%, 96%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: hsl(330, 12%, 97%);
+  }
+  
+  .home {
+    height: 80vh;
+    background: linear-gradient(rgba(33, 33, 33, 0.522), rgba(33, 33, 33, 0.522)),
+      url('../../Assets/painting-mountain-lake-with-mountain-background_188544-9126.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+  }
+  
+  .home .setContainer .hometext {
+    text-align: center;
+  }
+  
+  .home .setContainer .hometext .title {
+    font-size: 2rem;
+    color: var(--WhiteColor);
+    font-weight: 700;
+    line-height: 2.5rem;
+  }
+  
+  .home .setContainer .hometext .subtitle {
+    color: var(--WhiteColor);
+    opacity: 0.9;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 1rem 0;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .home .setContainer .hometext .btn {
+    padding: 0.6rem 2rem;
+  }
+  
+  .home .setContainer .homeCard {
+    width: 80%;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: var(--WhiteColor);
+    position: absolute;
+    gap: 1rem;
+    justify-content: center;
+    bottom: -38%;
+    transform: translate(-50%);
+    left: 50%;
+    box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
+  }
+  
+  .home .setContainer .homeCard .locationdiv,
+  .home .setContainer .homeCard .distdiv,
+  .home .setContainer .homeCard .pricediv {
+    width: 100%;
+  }
+  
+  .home .setContainer .homeCard label {
+    display: block;
+    color: var(--textColor);
+    font-weight: 500;
+    font-size: 13px;
+    padding-bottom: 1rem;
+  }
+  
+  .home .setContainer .homeCard input {
+    width: 100%;
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .home .setContainer .homeCard input::placeholder {
+    font-size: 13px;
+    opacity: 0.5;
+    font-weight: 400;
+  }
+  
+  .home .setContainer .homeCard input:focus {
+    outline: none;
+  }
+  
+  .home .setContainer .homeCard .btn {
+    width: 100%;
+    padding: 0.6rem 1.5rem;
+    color: var(--WhiteColor);
+    font-weight: 600;
+  }
+  
+
+  /* media queries */
+
+  @media screen and (min-width:480px) {
+    .home{
+      .setContainer{
+        .homeCard{
+          bottom: -100px;
+          width: 90%;
+          grid-template-columns: repeat(2,1fr);
+          .btn{
+            transform: translateY(15px);
+          }
+        }
+      }
+    }
+    
+  }
+
+  @media screen and (min-width:556px) {
+    .home{
+      .setContainer{
+       .hometext{
+        .title{
+          font-size: 2.5rem;
+
+        }
+        .subtitle{
+          font-size: 18px;
+
+        }
+       }
+      }
+    }
+    
+  }
+
+  @media screen and (min-width:720px) {
+    .home{
+      .setContainer{
+        .homeCard{
+          bottom: -10%;
+          grid-template-columns: repeat(4,1fr);
+
+        }
+      }
+    }
+    
+  }
+
+  @media screen and (min-width:720px) {
+    .home{
+      .setContainer{
+        .hometext{
+          padding: 1rem 10rem;
+
+          .title{
+            font-size: 3.5rem;
+            margin: auto;
+            line-height: 4rem;
+          }
+
+          .subtitle{
+            width: 70%;
+          }
+        }
+      }
+    }
+    
+  }
+
+  @media screen and (min-width:1024px) {
+      .home{
+        .setContainer{
+          .hometext{
+            .subtitle{
+              font-size: 20px;
+            }
+          }
+          .homeCard{
+            width: 70%;
+          }
+        }
+      }
+    
+  }
