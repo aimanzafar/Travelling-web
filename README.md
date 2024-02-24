@@ -30,6 +30,11 @@ Ready to explore? Follow these steps to set up Travel Explorer on your local mac
 cd travel-explorer
 npm install
 
-![Travel Explorer](D:\aiman git\Travelling-webiste\Screenshot (74).png)
+![Screenshot (74)](https://github.com/aimanzafar/Travelling-web/assets/147552086/7a87dac1-49c8-467d-8123-827fbed5a741)
+![Screenshot (75)](https://github.com/aimanzafar/Travelling-web/assets/147552086/d1d4f458-b1aa-4f2d-a793-1fdac7e626e3)
+![Screenshot (76)](https://github.com/aimanzafar/Travelling-web/assets/147552086/f2e20161-df30-4fc0-aed8-cca5efcf7f6e)
+![Screenshot (77)](https://github.com/aimanzafar/Travelling-web/assets/147552086/0cd98471-bee0-4047-bda6-be965c4b5a44)
+![Screenshot (78)](https://github.com/aimanzafar/Travelling-web/assets/147552086/8ebc0683-94c7-46f2-8e27-f123731c6445)
+
 
 
