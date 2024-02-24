@@ -28,4 +28,7 @@ Ready to explore? Follow these steps to set up Travel Explorer on your local mac
 
 2. Install dependencies:
 cd travel-explorer
-npm instal
+npm install
+
+![Travel Explorer](D:\aiman git\Travelling-webiste\Screenshot (74).png)
+
